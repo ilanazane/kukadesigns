@@ -7,7 +7,7 @@ import os
 import stripe
 
 # This is your test secret API key.
-stripe.api_key = ""
+stripe.api_key = "sk_test_51PtDC5Hoyr0IJ02SZh06noil6dftJzv8Uw0Ve90D4FgLyjeUClEMeJWGGuWKT7XjBayXEFQTtcdkrO5cTs3lMss000VHqVckgh"
 
 from flask import Flask, render_template, jsonify, request
 

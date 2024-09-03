@@ -1,13 +1,17 @@
-<button
- class="buy-button snipcart-add-item"
- data-item-id="{{ product.identifier }}"
- data-item-name="{{ product.name }}"
- data-item-price="{{ product.price }}"
- data-item-image="{{ product.image }}"
+<a href = "https://buy.stripe.com/fZeeW3dwE8Xodb26oo">
+  <button
+    class="buy-button"
+    data-item-id="{{ product.identifier }}"
+    data-item-name="{{ product.name }}"
+    data-item-price="{{ product.price }}"
+    data-item-image="{{ product.image }}"
 
- data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
- Add to cart 
-</button>
+    data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+    Buy
+  </button>
+
+</a>
+
 <label class="control-label">${{ product.price }}</label>
 
 

@@ -4,4 +4,8 @@ name: Concept
 price: 9.99
 image: /assets/images/Francois.png
 ---
-A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
+Testing Product 1 A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
+
+
+
+<!-- <a href="https://buy.stripe.com/fZeeW3dwE8Xodb26oo">link text</a> -->
