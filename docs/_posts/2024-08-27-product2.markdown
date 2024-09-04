@@ -2,7 +2,7 @@
 identifier: jekyll-idea-1
 name: Product 2 
 price: "25.00"
-image: /assets/images/urchin.png
+image: /assets/images/Francois.png
 purchase_link: "https://buy.stripe.com/4gw29h8ck8Xob2U7st"
 ---
 Testing Product 2 A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
