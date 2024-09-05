@@ -312,17 +312,20 @@ table td {
   font-size: 18px;
   margin-bottom: 15px;
 }
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: -400px;
+@media screen {
+  .contact-list,
+  .social-media-list {
+    list-style: none !important;
+    margin-left: -385px;
+    padding: 0px;
+  }
 }
-
-.footer-col-wrapper {
-  font-size: 15px;
-  color: #828282;
-  margin-left: -415px;
+@media screen {
+  .footer-col-wrapper {
+    font-size: 15px;
+    color: #828282;
+    margin-left: -400px;
+  }
 }
 
 .footer-col {
