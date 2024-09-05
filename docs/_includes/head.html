@@ -5,6 +5,7 @@
 
 
  <head>
+    {% include analytics.html %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,5 +15,9 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
 
     <div class="banner"></div>
+
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </head>
 
