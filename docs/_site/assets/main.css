@@ -316,13 +316,13 @@ table td {
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0;
+  margin-left: -400px;
 }
 
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
-  margin-left: -15px;
+  margin-left: -415px;
 }
 
 .footer-col {
@@ -645,5 +645,16 @@ table td {
 .highlight .il {
   color: #099;
 }
+
+.banner {
+  width: 100%;
+  height: 520px; /* Adjust height as needed */
+  background: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1)), /* Adjust gradient colors */
+    url('/assets/images/Coming Soon.png') no-repeat center center/cover; /* Replace with your banner image URL */
+  position: relative;
+}
+
+
 
 /*# sourceMappingURL=main.css.map */
