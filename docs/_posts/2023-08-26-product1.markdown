@@ -5,6 +5,6 @@ price: "0.50"
 image: /assets/images/Francois.png
 purchase_link: https://buy.stripe.com/14k4hp8ck0qS2wo3ce
 ---
-Testing Product 1 A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
+testing 1 
 
 

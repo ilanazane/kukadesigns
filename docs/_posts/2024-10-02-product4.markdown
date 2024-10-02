@@ -1,0 +1,10 @@
+---
+identifier: jekyll-idea-1
+name: Flower Coaster 
+price: "10.00"
+image: /assets/images/coaster1.png
+image2: /assets/images/coaster2.png
+purchase_link: "https://buy.stripe.com/fZeeW3dwE8Xodb26oo"
+---
+
+crocheted flower coasters. set of 8. 

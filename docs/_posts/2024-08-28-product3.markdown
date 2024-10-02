@@ -6,4 +6,4 @@ image: /assets/images/balaclava_edit.png
 image2: /assets/images/balaclava_back.png
 purchase_link: "https://buy.stripe.com/fZeeW3dwE8Xodb26oo"
 ---
-A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
+granny square balaclava
