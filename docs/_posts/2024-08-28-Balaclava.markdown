@@ -6,4 +6,4 @@ image: /assets/images/balaclava_edit.png
 image2: /assets/images/balaclava_back.png
 purchase_link: "https://buy.stripe.com/fZeeW3dwE8Xodb26oo"
 ---
-granny square balaclava
+Granny Square balaclava

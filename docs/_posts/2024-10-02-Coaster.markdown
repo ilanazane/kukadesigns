@@ -7,4 +7,4 @@ image2: /assets/images/coaster2.png
 purchase_link: "https://buy.stripe.com/fZeeW3dwE8Xodb26oo"
 ---
 
-crocheted flower coasters. set of 8. 
+Crocheted Flower Coasters. Set of 8. 

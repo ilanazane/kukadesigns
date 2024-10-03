@@ -6,8 +6,31 @@ import json
 import os
 import stripe
 
+print("WE ARE IN SERVER")
+
 # This is your test secret API key.
 stripe.api_key = "sk_test_51PtDC5Hoyr0IJ02SZh06noil6dftJzv8Uw0Ve90D4FgLyjeUClEMeJWGGuWKT7XjBayXEFQTtcdkrO5cTs3lMss000VHqVckgh"
+stripe.checkout.Session.create(
+    mode="payment",
+    success_url="https://example.com/success",
+    cancel_url="https://example.com/cancel",
+    line_items=[{"price": "{{PRICE_ID}}", "quantity": 1}],
+    custom_fields=[
+        {
+            "key": "sample",
+            "label": {"type": "custom", "custom": "Free sample"},
+            "optional": True,
+            "type": "dropdown",
+            "dropdown": {
+                "options": [
+                    {"label": "Balm sample", "value": "balm"},
+                    {"label": "BB cream sample", "value": "cream"},
+                ],
+            },
+        },
+    ],
+)
+
 
 from flask import Flask, render_template, jsonify, request
 
