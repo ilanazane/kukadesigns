@@ -654,7 +654,7 @@ table td {
   height: 520px; /* Adjust height as needed */
   background: 
     linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1)), /* Adjust gradient colors */
-    url('/assets/images/Coming Soon.png') no-repeat center center/cover; /* Replace with your banner image URL */
+    url('/assets/images/kuka.png') no-repeat center center/cover; /* Replace with your banner image URL */
   position: relative;
 }
 
